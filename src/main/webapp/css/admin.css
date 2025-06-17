@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Sidebar */
+#sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    padding-top: 20px;
+}
+
+#sidebar h3 {
+    color: #ecf0f1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sidebar .dashboad {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar .dashboad li a {
+    display: block;
+    padding: 12px 20px;
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+#sidebar .dashboad li a:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* Main content */
+#content {
+    margin-left: 260px;
+    padding: 30px;
+}
+
+#content h2 {
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Summary boxes layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, td {
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+td:first-child {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+td:nth-child(2) {
+    background-color: #ecf0f1;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}

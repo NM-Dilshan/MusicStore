@@ -1,0 +1,85 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    padding: 40px;
+    color: #333;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Search Input Styling */
+#searchInput {
+    padding: 10px 15px;
+    width: 300px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #d2c622;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Button Styling */
+button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button.update {
+    background-color: #3498db;
+}
+
+button.delete {
+    background-color: #e74c3c;
+}
+
+button.none {
+    background-color: #3498db;
+    margin: 10px 5px 0 0;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Form and Link Styles */
+form {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}

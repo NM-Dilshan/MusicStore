@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+     <servlet>
+     	<servlet-name>insertServlet</servlet-name>
+     	<servlet-class>musicstorepackage_feedback.insertServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>insertServlet</servlet-name>
+     	<url-pattern>/insertServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+      <servlet>
+     	<servlet-name>feedbackall</servlet-name>
+     	<servlet-class>musicstorepackage_feedback.feedbackall</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>feedbackall</servlet-name>
+     	<url-pattern>/feedbackall</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>updateServlet</servlet-name>
+     	<servlet-class>musicstorepackage_feedback.updateServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>updateServlet</servlet-name>
+     	<url-pattern>/updateServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>deleteServlet</servlet-name>
+     	<servlet-class>musicstorepackage_feedback.deleteServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>deleteServlet</servlet-name>
+     	<url-pattern>/deleteServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+     
+     
+     
+     
+     <servlet>
+     	<servlet-name>artist_insertServlet</servlet-name>
+     	<servlet-class>musicstorepackage.artist_insertServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>artist_insertServlet</servlet-name>
+     	<url-pattern>/artist_insertServlet</url-pattern>
+     </servlet-mapping>
+     
+     <!--display part artist -->
+     
+     <servlet>
+     	<servlet-name>artist_detailsgetCall</servlet-name>
+     	<servlet-class>musicstorepackage.artist_detailsgetCall</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>artist_detailsgetCall</servlet-name>
+     	<url-pattern>/artist_detailsgetCall</url-pattern>
+     </servlet-mapping>
+     
+      <!--update part artist  -->
+     
+     <servlet>
+     	<servlet-name>artist_updateregServlet</servlet-name>
+     	<servlet-class>musicstorepackage.artist_updateregServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>artist_updateregServlet</servlet-name>
+     	<url-pattern>/artist_updateregServlet</url-pattern>
+     </servlet-mapping>
+     
+           <!--delete part artist -->
+     
+     <servlet>
+     	<servlet-name>artist_regdeleteServlet</servlet-name>
+     	<servlet-class>musicstorepackage.artist_regdeleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>artist_regdeleteServlet</servlet-name>
+     	<url-pattern>/artist_regdeleteServlet</url-pattern>
+     </servlet-mapping>
+     
+
+
+	 <!--profile reg part  -->
+	
+     
+     <servlet>
+     	<servlet-name>profile_insertServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.profile_insertServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>profile_insertServlet</servlet-name>
+     	<url-pattern>/profile_insertServlet</url-pattern>
+     </servlet-mapping>
+	 
+	 
+	 	 <!--profile login part  -->
+	
+     
+     <servlet>
+     	<servlet-name>profile_loginServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.profile_loginServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>profile_loginServlet</servlet-name>
+     	<url-pattern>/profile_loginServlet</url-pattern>
+     </servlet-mapping>
+     
+     	 	 <!--profile view part  -->
+	
+     
+     <servlet>
+     	<servlet-name>profile_profileServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.profile_profileServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>profile_profileServlet</servlet-name>
+     	<url-pattern>/profile_profileServlet</url-pattern>
+     </servlet-mapping>
+     
+          	 	 <!--update view part  -->
+	
+     
+     <servlet>
+     	<servlet-name>profile_updateServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.profile_updateServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>profile_updateServlet</servlet-name>
+     	<url-pattern>/profile_updateServlet</url-pattern>
+     </servlet-mapping>
+     
+               	 	 <!--profile delete part  -->
+	
+     
+     <servlet>
+     	<servlet-name>profile_deleteServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.profile_deleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>profile_deleteServlet</servlet-name>
+     	<url-pattern>/profile_deleteServlet</url-pattern>
+     </servlet-mapping>
+     
+     <!--login part artist -->
+     
+     <servlet>
+     	<servlet-name>artist_loginservlet</servlet-name>
+     	<servlet-class>musicstorepackage.artist_loginservlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>artist_loginservlet</servlet-name>
+     	<url-pattern>/artist_loginservlet</url-pattern>
+     </servlet-mapping>
+     
+     	 	 <!--profile view part  -->
+	
+     
+     <servlet>
+     	<servlet-name>artist_profileServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.artist_profileServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>artist_profileServlet</servlet-name>
+     	<url-pattern>/artist_profileServlet</url-pattern>
+     </servlet-mapping>
+     
+	
+     <!--admin  -->
+     <servlet>
+     	<servlet-name>adminServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.adminServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>adminServlet</servlet-name>
+     	<url-pattern>/adminServlet</url-pattern>
+     </servlet-mapping>
+     
+     <!--admin  -->
+     <servlet>
+     	<servlet-name>addSong_insertServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.addSong_insertServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>addSong_insertServlet</servlet-name>
+     	<url-pattern>/addSong_insertServlet</url-pattern>
+     </servlet-mapping>
+     
+          <!--music  -->
+     <servlet>
+     	<servlet-name>addSong_allSongServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.addSong_allSongServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>addSong_allSongServlet</servlet-name>
+     	<url-pattern>/addSong_allSongServlet</url-pattern>
+     </servlet-mapping>
+     
+               <!--music Delete -->
+     <servlet>
+     	<servlet-name>addSong_deleteServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.addSong_deleteServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>addSong_deleteServlet</servlet-name>
+     	<url-pattern>/addSong_deleteServlet</url-pattern>
+     </servlet-mapping>
+     
+                    <!--music Update -->
+     <servlet>
+     	<servlet-name>addSong_UpdateServlet</servlet-name>
+     	<servlet-class>usermusicstorepackage.addSong_UpdateServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>addSong_UpdateServlet</servlet-name>
+     	<url-pattern>/addSong_UpdateServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <!-- Anuja part add play list -->
+	<servlet>
+	<servlet-name>PlaylistInsertServlet</servlet-name>
+	<servlet-class>Playlist.PlaylistInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>PlaylistInsertServlet</servlet-name>
+	<url-pattern>/PlaylistInsertServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>PlaylistGetAllServlet</servlet-name>
+	<servlet-class>Playlist.PlaylistGetAllServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>PlaylistGetAllServlet</servlet-name>
+	<url-pattern>/PlaylistGetAllServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>PlaylistUpdateServlet</servlet-name>
+	<servlet-class>Playlist.PlaylistUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>PlaylistUpdateServlet</servlet-name>
+	<url-pattern>/PlaylistUpdateServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>PlaylistDeleteServlet</servlet-name>
+	<servlet-class>Playlist.PlaylistDeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>PlaylistDeleteServlet</servlet-name>
+	<url-pattern>/PlaylistDeleteServlet</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Anuja part end -->
+
+
+</web-app>
